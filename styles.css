@@ -1,0 +1,16 @@
+html{
+    margin: 0 15%;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.profile-pic-cont{
+    justify-self: end;
+}
+
+.profile-pic{
+    border-radius: 100%;
+}
