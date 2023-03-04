@@ -5,12 +5,25 @@ html{
 main{
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-left: 11px;
+    margin-top: 3rem;
+}
+
+.profile-pic{
+    border-radius: 10%;
+    width: 100%;
 }
 
 .profile-pic-cont{
     justify-self: end;
 }
 
-.profile-pic{
-    border-radius: 100%;
+.icons{
+    font-size: 2rem;
+    margin: 2rem;
+}
+
+.icon{
+    margin-right: 2rem;
+    font-size: 2rem;
 }
