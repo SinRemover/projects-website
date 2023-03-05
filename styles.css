@@ -58,6 +58,10 @@ footer {
     color: #FFD166;
 }
 
+.icon:hover, .icons:hover{
+    color:  #06D6A0;
+}
+
 a:hover{
     color: #06D6A0;
 }
@@ -102,3 +106,13 @@ a:hover{
 .cont-foot {
     margin-top: 33em;
 }
+
+.paint-dot {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #118AB2;
+    pointer-events: none;
+  }
+  
