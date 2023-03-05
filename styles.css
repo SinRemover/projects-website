@@ -115,4 +115,11 @@ a:hover{
     background-color: #118AB2;
     pointer-events: none;
   }
+
+  .sketch{
+    display: none;
+    height: 500px;
+    width: 700px;
+    background-color: #FFD166;
+  }
   
