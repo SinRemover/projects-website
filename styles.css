@@ -2,6 +2,27 @@ html {
     margin: 0 15%;
 }
 
+body {
+    background-color: #073B4C;
+    color: #FFD166;
+}
+
+h1,h2{
+    color: #EF476F;
+}
+
+.nav-link{
+    color: #EF476F;
+}
+
+.nav-link:hover{
+   color:  #06D6A0;
+}
+
+.navi{
+    background-color: #073B4C;
+}
+
 main {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -13,6 +34,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
     padding: 7rem 0 0 0;
+    color: #EF476F;
 }
 
 .profile-pic {
@@ -27,11 +49,17 @@ footer {
 .icons {
     font-size: 2rem;
     margin: 2rem;
+    color: #FFD166;
 }
 
 .icon {
     margin-right: 2rem;
     font-size: 2rem;
+    color: #FFD166;
+}
+
+a:hover{
+    color: #06D6A0;
 }
 
 .about-txt {
@@ -42,27 +70,35 @@ footer {
     margin-top: 5rem;
 }
 
-.proj-img{
+.proj-img {
     border-radius: 10%;
     margin-top: 2rem;
+    border: 15px solid;
+    border-color: #FFD166;
+    transition: transform .2s;
 }
 
-.img-cont{
-    
+.proj-img:hover{
+    border-color: #06D6A0;
+    transform: scale(1.1);
+}
+
+.img-cont {
+
     padding: 5rem;
 }
 
-.main-cont{
+.main-cont {
     margin-top: 6em;
     margin-bottom: 2rem;
 }
 
-.cont-icon{
+.cont-icon {
     font-size: 1.7rem;
     margin-top: 1rem;
     margin-right: 1rem;
 }
 
-.cont-foot{
+.cont-foot {
     margin-top: 33em;
 }
