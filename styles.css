@@ -42,4 +42,27 @@ footer {
     margin-top: 5rem;
 }
 
+.proj-img{
+    border-radius: 10%;
+    margin-top: 2rem;
+}
 
+.img-cont{
+    
+    padding: 5rem;
+}
+
+.main-cont{
+    margin-top: 6em;
+    margin-bottom: 2rem;
+}
+
+.cont-icon{
+    font-size: 1.7rem;
+    margin-top: 1rem;
+    margin-right: 1rem;
+}
+
+.cont-foot{
+    margin-top: 33em;
+}
