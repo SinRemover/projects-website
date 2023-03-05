@@ -1,42 +1,45 @@
-html{
+html {
     margin: 0 15%;
 }
 
-main{
+main {
     display: grid;
     grid-template-columns: 2fr 1fr;
     padding-left: 11px;
     margin-top: 4rem;
 }
 
-footer{
+footer {
     text-align: center;
     margin-top: 2rem;
     padding: 7rem 0 0 0;
 }
-.profile-pic{
+
+.profile-pic {
     border-radius: 10%;
     width: 100%;
 }
 
-.profile-pic-cont{
+.profile-pic-cont {
     justify-self: end;
 }
 
-.icons{
+.icons {
     font-size: 2rem;
     margin: 2rem;
 }
 
-.icon{
+.icon {
     margin-right: 2rem;
     font-size: 2rem;
 }
 
-.about-txt{
+.about-txt {
     margin-top: 1.5rem;
 }
 
-.skills{
+.skills {
     margin-top: 5rem;
 }
+
+
