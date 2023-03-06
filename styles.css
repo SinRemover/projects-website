@@ -7,19 +7,20 @@ body {
     color: #FFD166;
 }
 
-h1,h2{
+h1,
+h2 {
     color: #EF476F;
 }
 
-.nav-link{
+.nav-link {
     color: #EF476F;
 }
 
-.nav-link:hover{
-   color:  #06D6A0;
+.nav-link:hover {
+    color: #06D6A0;
 }
 
-.navi{
+.navi {
     background-color: #073B4C;
 }
 
@@ -28,6 +29,7 @@ main {
     grid-template-columns: 2fr 1fr;
     padding-left: 11px;
     margin-top: 4rem;
+    text-align: justify;
 }
 
 footer {
@@ -58,11 +60,12 @@ footer {
     color: #FFD166;
 }
 
-.icon:hover, .icons:hover{
-    color:  #06D6A0;
+.icon:hover,
+.icons:hover {
+    color: #06D6A0;
 }
 
-a:hover{
+a:hover {
     color: #06D6A0;
 }
 
@@ -82,7 +85,7 @@ a:hover{
     transition: transform .2s;
 }
 
-.proj-img:hover{
+.proj-img:hover {
     border-color: #06D6A0;
     transform: scale(1.1);
 }
@@ -114,12 +117,128 @@ a:hover{
     border-radius: 50%;
     background-color: #118AB2;
     pointer-events: none;
-  }
+}
 
-  .sketch{
+.sketch {
     display: none;
     height: 500px;
     width: 700px;
     background-color: #FFD166;
-  }
-  
+}
+
+@media only screen and (max-width: 1600px) {
+    html {
+        margin: 0 13%;
+    }
+
+    main {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        padding-left: 11px;
+        margin-top: 4rem;
+        text-align: justify;
+    }
+
+    .profile-pic {
+        border-radius: 10%;
+        width: 100%;
+    }
+
+    .profile-pic-cont {
+        margin-top: 3rem;
+        margin-left: 2rem;
+        justify-self: end;
+    }
+
+    .col-huge-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .profile-pic-cont {
+        margin-top: 3.7rem;
+    }
+
+    .icons {
+        margin: 1.1rem;
+    }
+
+    .icon {
+        margin-right: 1.1rem;
+    }
+
+    .col-med-12 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .sketch {
+        width: 750px;
+    }
+
+    .container-fluid {
+        text-align: center;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    html {
+        margin: 0 10%;
+    }
+
+    main {
+        display: block;
+        padding-left: 11px;
+        margin-top: 4rem;
+        text-align: justify;
+    }
+
+    .profile-pic-cont {
+        display: none;
+    }
+
+    .navi-tit {
+        font-size: 3rem;
+    }
+
+    .nav-link {
+        font-size: 2rem;
+        margin-top: 1.5rem;
+    }
+
+    .abt-tit{
+        font-size: 3rem;
+    }
+
+    p{
+        font-size: 1.3rem;
+    }
+
+    .icons {
+        font-size: 3rem;
+    }
+
+    .icon {
+        font-size: 3rem;
+    }
+
+    .sketch {
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    html {
+        margin: 0 4%;
+    }
+
+    .sketch {
+        width: 450px;
+    }
+}
