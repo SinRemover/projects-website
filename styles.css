@@ -241,6 +241,12 @@ a:hover {
     .sketch {
         width: 450px;
     }
+    
+    .img-cont {
+
+        padding: 1rem;
+        margin-top: 5rem;
+    }
 }
 
 @media only screen and (max-width: 380px) {
