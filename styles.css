@@ -212,11 +212,11 @@ a:hover {
         margin-top: 1.5rem;
     }
 
-    .abt-tit{
+    .abt-tit {
         font-size: 3rem;
     }
 
-    p{
+    p {
         font-size: 1.3rem;
     }
 
@@ -240,5 +240,45 @@ a:hover {
 
     .sketch {
         width: 450px;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    html {
+        margin: 0 2%;
+    }
+
+    .sketch {
+        width: 450px;
+    }
+
+    p {
+        margin-top: 3rem;
+    }
+
+    .icons {
+        font-size: 4rem;
+    }
+
+    .icon {
+        font-size: 4rem;
+    }
+
+    .fa-git{
+        margin-left: 1rem;
+    }
+
+    .hub{
+        margin-left: 0;
+    }
+
+    .sketch {
+        width: 360px;
+    }
+    
+    .img-cont {
+
+        padding: 1rem;
+        margin-top: 5rem;
     }
 }
