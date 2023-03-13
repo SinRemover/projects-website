@@ -55,3 +55,10 @@ function paintModeMobile() {
     }
   });
 }
+
+const rainbowText = document.getElementById("rainbow-text");
+const rainbowIcon = document.getElementById("rainbow-icon");
+
+rainbowIcon.addEventListener("click", () => {
+  rainbowIcon.classList.add("rainbow");
+});
