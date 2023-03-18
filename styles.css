@@ -98,6 +98,7 @@ a:hover {
 .main-cont {
     margin-top: 6em;
     margin-bottom: 2rem;
+    margin-left: 1rem;
 }
 
 .cont-icon {
@@ -241,7 +242,7 @@ a:hover {
     .sketch {
         width: 450px;
     }
-    
+
     .img-cont {
 
         padding: 1rem;
@@ -270,18 +271,18 @@ a:hover {
         font-size: 4rem;
     }
 
-    .fa-git{
+    .fa-git {
         margin-left: 1rem;
     }
 
-    .hub{
+    .hub {
         margin-left: 0;
     }
 
     .sketch {
         width: 360px;
     }
-    
+
     .img-cont {
 
         padding: 1rem;
@@ -294,53 +295,79 @@ a:hover {
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  @keyframes rainbow {
-    0%   { color: #FFBE0B; transform: translateY(0); }
-    25%  { color: #FB5607; transform: translateY(-0.3em); }
-    50%  { color: #FF006E; transform: translateY(0.3em); }
-    75%  { color: #8338EC; transform: translateY(-0.2em); }
-    100% { color: #3A86FF; transform: translateY(0); }
-  }
-  
-  #rainbow-text {
+}
+
+@keyframes rainbow {
+    0% {
+        color: #FFBE0B;
+        transform: translateY(0);
+    }
+
+    25% {
+        color: #FB5607;
+        transform: translateY(-0.3em);
+    }
+
+    50% {
+        color: #FF006E;
+        transform: translateY(0.3em);
+    }
+
+    75% {
+        color: #8338EC;
+        transform: translateY(-0.2em);
+    }
+
+    100% {
+        color: #3A86FF;
+        transform: translateY(0);
+    }
+}
+
+#rainbow-text {
     font-size: 36px;
     font-weight: bold;
     display: inline-block;
-  }
-  
-  #rainbow-text span {
+}
+
+#rainbow-text span {
     display: inline-block;
     animation-name: wave;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  #rainbow-text span:nth-child(1) {
+}
+
+#rainbow-text span:nth-child(1) {
     animation-delay: 0.1s;
-  }
-  
-  #rainbow-text span:nth-child(2) {
+}
+
+#rainbow-text span:nth-child(2) {
     animation-delay: 0.2s;
-  }
-  
-  #rainbow-text span:nth-child(3) {
+}
+
+#rainbow-text span:nth-child(3) {
     animation-delay: 0.3s;
-  }
-  
-  #rainbow-text span:nth-child(4) {
+}
+
+#rainbow-text span:nth-child(4) {
     animation-delay: 0.4s;
-  }
-  
-  #rainbow-text span:nth-child(5) {
+}
+
+#rainbow-text span:nth-child(5) {
     animation-delay: 0.5s;
-  }
-  
-  @keyframes wave {
-    0%   { transform: translateY(0); }
-    50%  { transform: translateY(-0.5em); }
-    100% { transform: translateY(0); }
-  }
-  
+}
+
+@keyframes wave {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-0.5em);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
