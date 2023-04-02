@@ -3,25 +3,25 @@ html {
 }
 
 body {
-    background-color: #073B4C;
-    color: #FFD166;
+    background-color: #FFFFFF;
+    color: #353535;
 }
 
 h1,
 h2 {
-    color: #EF476F;
+    color: #3C6E71;
 }
 
 .nav-link {
-    color: #EF476F;
+    color: #3C6E71;
 }
 
 .nav-link:hover {
-    color: #06D6A0;
+    color: #284B63;
 }
 
 .navi {
-    background-color: #073B4C;
+    background-color: #FFFFFF;
 }
 
 main {
@@ -36,7 +36,7 @@ footer {
     text-align: center;
     margin-top: 2rem;
     padding: 7rem 0 0 0;
-    color: #EF476F;
+    color: #3C6E71;
 }
 
 .profile-pic {
@@ -51,22 +51,22 @@ footer {
 .icons {
     font-size: 2rem;
     margin: 2rem;
-    color: #FFD166;
+    color: #353535;
 }
 
 .icon {
     margin-right: 2rem;
     font-size: 2rem;
-    color: #FFD166;
+    color: #353535;
 }
 
 .icon:hover,
 .icons:hover {
-    color: #06D6A0;
+    color: #284B63;
 }
 
 a:hover {
-    color: #06D6A0;
+    color: #284B63;
 }
 
 .about-txt {
@@ -81,12 +81,12 @@ a:hover {
     border-radius: 10%;
     margin-top: 2rem;
     border: 15px solid;
-    border-color: #FFD166;
+    border-color: #353535;
     transition: transform .2s;
 }
 
 .proj-img:hover {
-    border-color: #06D6A0;
+    border-color: #284B63;
     transform: scale(1.1);
 }
 
@@ -116,7 +116,7 @@ a:hover {
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background-color: #118AB2;
+    background-color: #D9D9D9;
     pointer-events: none;
 }
 
@@ -124,7 +124,7 @@ a:hover {
     display: none;
     height: 500px;
     width: 700px;
-    background-color: #FFD166;
+    background-color: #353535;
 }
 
 @media only screen and (max-width: 1600px) {
